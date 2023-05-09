@@ -6,7 +6,6 @@ use serde_derive::Serialize;
 pub struct Root {
     pub data: Vec<Daum>,
     pub total: i64,
-    pub next: String,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
